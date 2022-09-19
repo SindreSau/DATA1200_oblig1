@@ -1,0 +1,39 @@
+
+
+body{
+    background-color: rgb(12, 12, 12);
+    margin: 0px;
+    margin-top: 160px;
+    
+}
+
+main {
+    padding: 35px;
+}
+
+#omRestauranten {
+    text-align: center;
+    color: rgb(243,207,179);
+}
+
+#meny_Container {
+    text-align: center;
+    color: rgb(243,207,179);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+@media (max-width: 800px){
+    #meny_Container {
+        flex-direction: column;
+    }
+}
+
+h3 {
+    margin: 1.5%;
+}
+
+.allergener {
+    margin: 0%;
+    font-style: italic;
+}
