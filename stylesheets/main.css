@@ -3,8 +3,8 @@
     margin-right: 50px;
 }
 
-/* ---------- bilde-slideshow ----------  */
-.container-slideshow {
+/* ---------- start bilde-slideshow ----------  */
+#slideshow {
     animation: fade 32s cubic-bezier(1, 0, 0, 1) infinite;
     background-repeat: no-repeat;
     background-size: cover;
@@ -38,4 +38,4 @@
     93% {background-image: url(/Assets/rr-abrot-pNIgH0y3upM-unsplash.jpeg);}
     100% {background-image: url(/Assets/clem-onojeghuo-zlABb6Gke24-unsplash.jpeg);}
 }
-/* ---------- bilde-slideshow ----------  */
+/* ---------- slutt bilde-slideshow ----------  */
