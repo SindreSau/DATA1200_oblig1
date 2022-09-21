@@ -1,16 +1,17 @@
 body {
     margin: 0px;
-    margin-top: 160px;
     padding: 0px;
-    background-color: white;
+    background-color: rgb(15, 15, 15);
+    color: rgb(245, 245, 220);
 }
 main{
-    padding: 35px;
+    padding: 0;
+    padding-top: 146px; /* endres etter høyde på nav-bar/header */
 }
 footer{
     height: 100px;
-    background-color: #230903;
-    color: #D3B88C;
+    background-color: rgb(242,208,181);
+    color: rgb(15, 15, 15);
     padding: 30px; 
 }
 
@@ -19,7 +20,7 @@ footer{
 :root {
     font-family: 'Raleway', sans-serif;
 
-    /* ---------- font-variabler ---------- */
+/* ---------- font-variabler ------------ */
     --fs-70: 0.75rem; /* 12px */
     --fs-80: 0.875; /* 14px */
     --fs-100: 1rem; /* 16px */
