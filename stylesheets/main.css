@@ -39,3 +39,7 @@
     100% {background-image: url(/Assets/clem-onojeghuo-zlABb6Gke24-unsplash.jpeg);}
 }
 /* ---------- slutt bilde-slideshow ----------  */
+
+.centertext {
+    text-align: center;
+}
