@@ -44,6 +44,15 @@
     text-align: center;
 }
 
+#menyinfo-overskrift {
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.menyinfo-divider {
+    padding-bottom: 15px;
+}
+
 .allergenliste {
     padding: 0;
     list-style-type: upper-greek;
@@ -54,10 +63,13 @@
     padding: 40px;
 }
 
-hr {
+main hr {
+    position: relative;
+    z-index: -1;
     border: 1px solid rgb(242,208,181);
     border-radius: 4px;
     opacity: 10%;
     margin-left: 6vw;
     margin-right: 6vw;
+    overflow: hidden;
 }
