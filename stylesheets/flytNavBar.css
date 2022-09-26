@@ -33,12 +33,12 @@
 
 
 
-li {
+header li {
     list-style: none;
     float: left;
     padding: 0px;
 }
-li a, .dropdownKnapp {
+header li a, .dropdownKnapp {
     text-align: center;
     font-weight: bold;
     display: inline-block;
@@ -51,7 +51,7 @@ li a, .dropdownKnapp {
     margin-right: 30px;
     color: #D3B88C;
 }
-li a:hover {
+header li a:hover {
     background-color: #D3B88C;
     color: #230903;
     transition-duration: 0.4s;

@@ -7,9 +7,10 @@ body {
 main{
     padding: 0;
     padding-top: 146px; /* endres etter høyde på nav-bar/header */
+    height: fit-content;
 }
 footer{
-    height: 100px;
+    height: fit-content;
     background-color: rgb(242,208,181);
     color: rgb(15, 15, 15);
     padding: 30px; 
