@@ -1,0 +1,53 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(15, 15, 15);
+    color: rgb(245, 245, 220);
+}
+main{
+    padding: 0;
+    padding-top: 146px; /* endres etter høyde på nav-bar/header */
+}
+footer{
+    height: 100px;
+    background-color: rgb(242,208,181);
+    color: rgb(15, 15, 15);
+    padding: 30px; 
+}
+
+
+
+:root {
+    font-family: 'Raleway', sans-serif;
+
+/* ---------- font-variabler ------------ */
+    --fs-70: 0.75rem; /* 12px */
+    --fs-80: 0.875; /* 14px */
+    --fs-100: 1rem; /* 16px */
+    --fs-125: 1.25rem; /* 20px */
+    --fs-150: 1.5rem; /* 24px */
+    --fs-200: 2rem; /* 32px */
+
+}
+
+/* ---------- Utility klasser: ---------- */
+
+/* font-størrelser: */
+.fs-70 {
+    font-size: var(--fs-70);
+}
+.fs-80 {
+    font-size: var(--fs-80);
+}
+.fs-100 {
+    font-size: var(--fs-100);
+}
+.fs-125 {
+    font-size: var(--fs-125);
+}
+.fs-150 {
+    font-size: var(--fs-150);
+}
+.fs-200 {
+    font-size: var(--fs-200);
+}
