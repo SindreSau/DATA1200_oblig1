@@ -73,3 +73,14 @@ main hr {
     margin-right: 6vw;
     overflow: hidden;
 }
+
+.italic{
+    font-style: italic;
+}
+
+.alignfooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;    
+}
