@@ -43,3 +43,8 @@
 .centertext {
     text-align: center;
 }
+
+.allergenliste {
+    list-style-type: decimal;
+    list-style-position: inside;
+}
