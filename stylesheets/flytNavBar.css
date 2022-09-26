@@ -3,8 +3,8 @@
 }
 #logo h1{
     text-align: center;
-    background-color: #A07456;
-    color: #D3B88C;
+    background-color:rgb(18, 18, 18);
+    color: rgb(242,208,181);
     margin: 0px;
     padding: 20px;
     font-weight: bold;
@@ -17,14 +17,14 @@
     list-style-type: none;
     padding: 0px;
     margin: 0px;
-    background-color: #A07456;
+    background-color: rgb(18, 18, 18);
 }
 @media (max-width: 600px){
     #navKnappContainer {
         display: flex;
         flex-direction: column;
     }
-    #navKnappContainer li a, #navKnappContainer li .dropdownKnapp {
+    #navKnappContainer header li a, #navKnappContainer li .dropdownKnapp {
         width: 100%;
         margin: 0px;
     }
@@ -43,16 +43,16 @@ header li a, .dropdownKnapp {
     font-weight: bold;
     display: inline-block;
     text-decoration: none;
-    background-color: #A07456;
+    background-color: rgb(18, 18, 18);
     padding: 25px;
     width: 90px;
     margin: 0px;
     margin-left: 30px;
     margin-right: 30px;
-    color: #D3B88C;
+    color: rgb(242,208,181);
 }
 header li a:hover {
-    background-color: #D3B88C;
+    background-color: rgb(242,208,181);
     color: #230903;
     transition-duration: 0.4s;
 }
