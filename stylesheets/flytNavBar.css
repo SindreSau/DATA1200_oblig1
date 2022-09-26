@@ -33,11 +33,6 @@
 
 
 
-li {
-    list-style: none;
-    float: left;
-    padding: 0px;
-}
 li a, .dropdownKnapp {
     text-align: center;
     font-weight: bold;
