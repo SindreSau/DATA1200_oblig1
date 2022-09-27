@@ -77,10 +77,3 @@ main hr {
 .italic{
     font-style: italic;
 }
-
-.alignfooter{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    text-align: center;    
-}

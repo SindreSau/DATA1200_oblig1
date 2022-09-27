@@ -9,7 +9,7 @@ main{
     height: fit-content;
 }
 footer{
-    height: fit-content;
+    height: 20vh;
     background-color: rgb(242,208,181);
     color: rgb(15, 15, 15);
     padding: 30px; 
