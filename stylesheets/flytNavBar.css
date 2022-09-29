@@ -73,7 +73,7 @@ header li a:hover {
     border-bottom: 4px;
     border-style: solid;
 }
-@media (max-width: 600px){
+@media (max-width: 650px){
     #navKnappContainer {
         display: flex;
         flex-direction: column;
