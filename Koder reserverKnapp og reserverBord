@@ -1,0 +1,107 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel = "stylesheet" href="reserverKnapp.css">
+</head>
+<body>
+  <a href ="reservereBord.html"> 
+      <button class ="button 1"> Reserver bord her! </button>
+    </a>
+    </body>
+    </html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel  = "stylesheet" href="reservereBord.css">
+   </head>
+
+<h1> Book ditt bord nå! </h1>
+<h3> Reserverasjoner </h3>
+<div id="dropdowndatoer">
+    <form action="ukedager">
+        <select name="ukedager" id="ukedager">
+    <option> Mandag</option>
+    <option>Tirsdag</option>
+    <option>Onsdag</option>
+    <option>Torsdag</option>
+    <option>Fredag</option>
+    <option>Lørdag</option>
+    <option>Søndag</option>
+        </select>
+        <option> 
+    </form>
+    
+    <form action="klokkeslett">
+        <select value="klokkeslett" id="klokkeslett">
+    <option> 9:00</option>
+    <option>10:00</option>
+    <option>11:00</option>
+    <option>12:00</option>
+    <option>13:00</option>
+    <option>14:00</option>
+    <option>15:00</option>
+        </select>
+        <option> 
+    </form>
+</div>
+    <div class = "form-row"> 
+    <input type = "tekst"
+    placeholder="fullt navn">
+    <input type = "tekst"
+    placeholder = "telefonnummer"> 
+</div> 
+
+<div class = "form row"> 
+    <input type = "antall"
+    placeholder="Hvor mange personer?" min = "1">
+    <input type = "submit" value = "BESTILL BORD">
+</div> 
+</select>
+</form>
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 4px solid black;
+    padding: 24px 48px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 8px 4px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+.button1:hover {
+    background-color: black;
+    color: white;
+  }
+
+
+.dropdowndatoer {
+    background-color: white;
+    text-align: center; 
+    width: 50px;
+    float:left; 
+    }
+    
+    #ukedager {
+        background-color: white;
+        width: 50px;
+        float: left;
+    }
+    
+    #klokkeslett {
+        background-color: white;
+        width: 50px;
+        float: right;
+    }
